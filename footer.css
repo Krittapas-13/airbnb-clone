@@ -1,0 +1,38 @@
+.gray-background {
+  background-color: #f7f7f7;
+}
+
+.gray-border-top {
+  border-top: 1px solid #dddddd;
+}
+
+footer ul > * {
+  margin-top: 10px;
+}
+
+footer ul > b {
+  font-size: 12px;
+}
+
+footer ul > li {
+  font-size: 14px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.last_footer {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.last_footer > div {
+  width: 25%;
+  text-align: right;
+}
+
+.last_footer > div:nth-child(1) {
+  width: 50%;
+  text-align: left;
+}
